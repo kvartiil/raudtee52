@@ -1,0 +1,331 @@
+.frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+  padding: 24px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 0px 4px 4px 4px;
+  border: 0px solid;
+  border-color: #878a97;
+}
+
+.frame .div-2 {
+  display: flex;
+  flex-direction: column;
+  width: 555px;
+  height: 183px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+}
+
+.frame .ettev-te-on-k-rge {
+  position: relative;
+  width: 627px;
+  height: 88px;
+  margin-right: -72px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #09090b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.frame .span {
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #09090b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.frame .text-wrapper-5 {
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.frame .div-3 {
+  display: flex;
+  height: 160px;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.frame .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 4px;
+}
+
+.frame .frame-wrapperx { 
+  background-color: #fceeee;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 4px;
+}
+
+.frame .frame-wrapperxa {
+  background-color: #fbe9df;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 4px;
+}
+
+.frame .frame-wrapperxb {
+  background-color: #ECF4EF;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 4px;
+}
+
+.frame .div-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -45.6px;
+}
+
+.frame .div-5 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .ellipse-2x{ 
+background-color: #d73e3e;
+position: relative;
+  width: 8px;
+  margin-bottom: 2px;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.frame .ellipse-2xa{ 
+  background-color: #e67300;
+  width: 8px;
+  margin-bottom: 2px;
+  height: 8px;
+  border-radius: 4px;
+  }
+
+.frame .ellipse-2xb{ 
+  background-color: #286E44;
+  width: 8px;
+  margin-bottom: 2px;
+  height: 8px;
+  border-radius: 4px;
+  }
+
+
+.frame .text-wrapper-6 { /* efektiivsuse tekst */
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-6 .text-wrapper-6x {
+  color: #d73e3e;
+}
+
+.frame .text-wrapper-6 .text-wrapper-6xa {
+  color: #e67300;
+}
+.frame .text-wrapper-6 .text-wrapper-6xb {
+  color: #286E44;
+}
+
+.frame .element-aastal-muutuva {
+  position: relative;
+  width: 214px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 400;
+  color: var(--textblack-high-emphasis);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.frame .text-wrapper-7 {
+  font-weight: 500;
+  
+}
+
+.frame .text-wrapper-8 {
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26.7px;
+}
+
+.frame .div-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #fbe9df;
+  border-radius: 4px;
+}
+
+.frame .ellipse-3 {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-color: #e67300;
+  border-radius: 4px;
+}
+
+.frame .text-wrapper-9 { /*finantvõimenduse text*/
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #e67300;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .frame-wrapper-2 {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #fceeee;
+  border-radius: 4px;
+}
+
+.frame .ellipse-4 {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-color: #d73e3e;
+  border-radius: 4px;
+}
+
+.frame .text-wrapper-10 { /*Tööjõukulude tekst*/
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #d73e3e;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .div-6 {
+  display: flex;
+  height: 63px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.frame .div-7 {
+  display: flex;
+  width: 799px;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+}
+
+.frame .vector-5 {
+  position: relative;
+  width: 14px;
+  height: 14px;
+}
+
+.frame .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primaryblack-coral);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.frame .div-8 {
+  display: flex;
+  width: 216px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
+.frame .ellipse-5 {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-color: var(--errorjasper);
+  border-radius: 4px;
+}
+
+
+

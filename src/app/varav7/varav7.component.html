@@ -1,0 +1,42 @@
+<div class="raamYmber" >
+
+<br>
+<div class="tekstike">
+
+Võrdlustaust piirkondade lõikes
+
+</div>
+
+<br>
+
+<div class="tekstike2">
+
+Alljärgnevalt on toodud piirkondade lõikes suhtarvude analüüs. Välja on toodud suhtarvud kõigi kohalike omavalitsuste lõikes, mis võimaldab enda ettevõtet asetada üldisesse võrdlusesse. Võimalik on näha ennast nii oma asukoha kui ka teiste piirkondade võrdluses. Samuti saab aimu ka piirkondade omavahelisest võrdlusest.
+<br> <br>
+</div>
+
+<div *ngFor="let section of sections; let i = index;">
+  <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+
+  <!--div class="raamYmber" -->
+
+  <div class="panel"
+    [ngClass]="{ 'visible' : currentIndex === i }">
+    <!--p>{{section.content}}</p-->
+    <sektp1-component *ngIf="showComponent1"></sektp1-component>
+    <sektp2-component *ngIf="showComponent2"></sektp2-component>
+    <sektp3-component *ngIf="showComponent3"></sektp3-component>
+    <sektp4-component *ngIf="showComponent4"></sektp4-component>
+    <sektp5-component *ngIf="showComponent5"></sektp5-component>
+    
+    <!--progn2-component *ngIf="{{section.content}}=='progn2'"></progn2-component *ngIf="{{section.content}}=='progn2'"-->
+    <!--progn1-component></progn1-component-->
+    <!--progn2-component></progn2-component-->
+  <!--/div-->
+
+</div>
+
+</div>
+
+</div>
+

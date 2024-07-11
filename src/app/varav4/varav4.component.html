@@ -1,0 +1,33 @@
+<div class="raamYmber" >
+
+  <br>
+  <div class="tekstike">
+  
+  Olulised selgitused prototüübi juurde
+  
+  </div>
+  
+  <br>
+  
+  <div class="tekstike2a">
+  
+  Alljärgnevates alajaotustes on toodud "Ettevõtjatele avalike raudteede kasutustasude määramise lahenduse (prototüübi) väljatöötamine" töö raames välja töötatud prototüübi (edaspidi nimetatud prototüüp) selgitavad ja suunavad mõtted. Toodud seisukohad on olulised mõistmaks, mida prototüüp teeb ja mida väidab ning millisel määral tuleb esitatavates seisukohtades selguse saamiseks teha täiendavat tööd.
+  <br> <br>
+  </div>
+  
+  <div *ngFor="let section of sections; let i = index;">
+    <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+  
+    <!--div class="raamYmber" -->
+  
+    <div class="panel"
+      [ngClass]="{ 'visible' : currentIndex === i }">
+      <span class="tekstike2">{{section.content}}</span>
+        
+  </div>
+  
+  </div>
+  
+  </div>
+  
+  

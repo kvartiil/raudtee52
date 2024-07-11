@@ -1,0 +1,25 @@
+.blink_me {
+  animation: blinker 1s linear infinite;
+  color: #d73e3e;
+  font-weight: bold;
+  
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink_me2 {
+  animation: blinker2 0.3s linear infinite;
+  color: #d73e3e;
+  font-weight: bold;
+  margin-top: -58px;
+}
+
+@keyframes blinker2 {
+  50% {
+    opacity: 0;
+  }
+}

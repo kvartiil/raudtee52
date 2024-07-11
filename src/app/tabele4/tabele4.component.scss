@@ -1,0 +1,175 @@
+.dashboard,
+.dashboard * {
+  box-sizing: border-box;
+}
+.dashboard {
+  background: var(--colors-surface-primary, #ffffff);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--colors-blue-blue-300, #99bdda);
+  border-width: 0px 0px 0px 6px;
+  padding: var(--cards-sizing-padding-small, 16px)
+    var(--cards-sizing-padding-medium, 24px)
+    var(--cards-sizing-padding-small, 16px)
+    var(--cards-sizing-padding-medium, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: var(
+    --elevation-01-light-mode-box-shadow,
+    0px 1px 5px 0px rgba(0, 0, 0, 0.2)
+  );
+}
+.dashboard-type {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--colors-blue-blue-400, #669cc8);
+  border-width: 1px;
+  padding: var(--cards-sizing-padding-small, 20px)
+    var(--cards-sizing-padding-medium, 24px)
+    var(--cards-sizing-padding-small, 26px)
+    var(--cards-sizing-padding-medium, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.dashboard-row {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px; /*98px;*/
+  position: relative;
+}
+.dashboard-row-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 40px; /*98px;*/
+  position: relative;
+}
+.mitu-ettev-tetest-on-sinu-maakonnas-sinu-ettev-ttest-paremas-seisus {
+  color: var(--colors-text-primary, #131317);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 133%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.dashboard-row-item2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 236px;
+  position: relative;
+}
+.label {
+  color: var(--colors-text-tertiary, #686b78);
+  margin-top: -5px;
+  text-align: left;
+  font-family: var(--body-small-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-small-font-size, 14px);
+  line-height: var(--body-small-line-height, 100%);
+  font-weight: var(--body-small-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.content {
+  color: var(--colors-text-primary, #131317);
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 25px;
+  line-height: 150%;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.divider {
+  padding: 8px 0px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.dashboard-row2 {
+  display: flex;
+  flex-direction: row;
+  gap: 83px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px; /*98px;*/
+  position: relative;
+}
+.mitu-ettev-tetest-on-sinu-ettev-tte-tegevusalade-grupis-sinu-ettev-ttest-paremas-seisus {
+  color: var(--colors-text-primary, #131317);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 133%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.divider2 {
+  padding: 8px 0px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.dashboard-row3 {
+  display: flex;
+  flex-direction: row;
+  gap: 108px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px; /* 98px; */
+  position: relative;
+}
+.mitu-ettev-tetest-on-sinu-ettev-ttega-samas-suuruses-ettev-ttest-paremas-seisus {
+  color: var(--colors-text-primary, #131317);
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 133%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}

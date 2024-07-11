@@ -1,0 +1,74 @@
+<div [ngClass]="{'alert': lapkok() == 1, 'alert2': lapkok() == 2, 'alert3': lapkok() == 3}">
+<!---div class="alert"-->
+  <!---div [ngClass] ="{'back': naitaja == 1, 'back2': naitaja == 2}"-->
+<div class="header">
+  <!--img class="icon" src="icon0.svg" /-->
+  <div class="title">{{title}}</div>
+</div>
+<div class="content">
+<div class="tulemikirjeldus">
+Elujou ennustus on: {{elujouEnnustus}} - see tähendab: {{annaHinnangElujoule()}}
+<br>
+<!--{{elujouEnnustus2}}
+{{elujouEnnustus3}}--> 
+
+</div>
+
+<div class="tulemikirjeldus">
+  Elastsuse ennustus on: {{elastsusEnnustus}} - see tähendab: {{annaHinnangElastsusele()}}
+  <br>
+  <!--{{elujouEnnustus2}}
+  {{elujouEnnustus3}}-->
+   
+  </div>
+
+  <div class="tulemikirjeldus">
+    Järeldus: {{teeSoovitus()}}
+    <br>
+    <!--{{elujouEnnustus2}}
+    {{elujouEnnustus3}}-->
+    
+    </div> 
+
+    <div class="tulemikirjeldus">
+    {{annaHinnangRaudteele()}}
+    <br>
+    <!--{{elujouEnnustus2}}
+    {{elujouEnnustus3}}-->
+    
+    </div>
+    
+    <div class="tulemikirjeldus">
+    {{annaHinnangMajandusele()}}
+    <br>
+    <!--{{elujouEnnustus2}}
+    {{elujouEnnustus3}}-->
+    
+    </div>  
+
+<!--table id="tabel">
+  
+<tr *ngFor="let sekid1 of oigeSektor">
+<td>{{content2}}</td>
+<td>{{sekid1.sektorName}}</td>
+</tr>
+
+</table-->
+
+<!--table id="tabel">
+  
+<tr *ngFor="let koostid1 of oigeSector">
+<td>{{content3}}</td>
+<td>{{koostid1.sektorSisu}}</td>
+</tr>
+
+</table-->
+
+  <!--div class="body">{{content1b}}</div>
+  <div class="body">{{content2}}</div-->
+  <!--div class="body">{{content3}}</div-->
+  <!--div class="body">{{content4}}</div>
+  <div class="body">{{content5}}</div>
+  <div class="body">{{content6}}</div-->
+</div>
+</div> 

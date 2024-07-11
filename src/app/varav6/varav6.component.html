@@ -1,0 +1,42 @@
+<div class="raamYmber" >
+
+<br>
+<div class="tekstike">
+
+Võrdlustaust sektorite lõikes
+
+</div>
+
+<br>
+
+<div class="tekstike2">
+
+Alljärgnevalt on toodud sektorite lõikes suhtarvude analüüs. Välja on toodud suhtarvud kõigi sektorite lõikes, mis võimaldab enda ettevõtet asetada üldisesse võrdlusesse. Võimalik on näha ennast nii oma sektori kui ka teiste sektorite võrdluses. Samuti saab aimu ka sektorite omavahelisest võrdlusest.
+<br> <br>
+</div>
+
+<div *ngFor="let section of sections; let i = index;">
+  <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+
+  <!--div class="raamYmber" -->
+
+  <div class="panel"
+    [ngClass]="{ 'visible' : currentIndex === i }">
+    <!--p>{{section.content}}</p-->
+    <sekt1-component *ngIf="showComponent1"></sekt1-component>
+    <sekt2-component *ngIf="showComponent2"></sekt2-component>
+    <sekt3-component *ngIf="showComponent3"></sekt3-component>
+    <sekt4-component *ngIf="showComponent4"></sekt4-component>
+    <sekt5-component *ngIf="showComponent5"></sekt5-component>
+    
+    <!--progn2-component *ngIf="{{section.content}}=='progn2'"></progn2-component *ngIf="{{section.content}}=='progn2'"-->
+    <!--progn1-component></progn1-component-->
+    <!--progn2-component></progn2-component-->
+  <!--/div-->
+
+</div>
+
+</div>
+
+</div>
+

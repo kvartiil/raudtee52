@@ -1,0 +1,45 @@
+<div class="raamYmber" >
+
+  <br>
+  <div class="tekstike">
+  
+  Võrdlus teiste ettevõtetega suhtarvude pinnalt
+  
+  </div>
+  
+  <br>
+  <div class="infoasukoht">
+  <infoaken-component></infoaken-component>
+  </div>
+  <div class="tekstike2">
+  
+  Alljärgnev avab täpsemat tausta, miks on ettevõtte hetkeolukord saanud ülaltoodud hinnangu. Toodud tabelites on suhtarvud esitatud kohalike omavalitsusüksuste, tööga hõivatud isikute arvu alusel leitud suurusgruppide ja tegevussektorite lõikes. Aluseks on viimased teadaolevad andmed. Täpsemalt loe alaleheküljelt "Kuidas tulemusi mõista?"
+  <br> <br>
+  </div>
+  
+  <div *ngFor="let section of sections; let i = index;">
+    <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+  
+    <!--div class="raamYmber" -->
+  
+    <div class="panel"
+      [ngClass]="{ 'visible' : currentIndex === i }">
+      <!--p>{{section.content}}</p-->
+      <tabel1-component *ngIf="showComponent1"></tabel1-component>
+      <tabel2-component *ngIf="showComponent2"></tabel2-component>
+      <tabel3-component *ngIf="showComponent3"></tabel3-component>
+      <tabel4-component *ngIf="showComponent4"></tabel4-component>
+      <tabel5-component *ngIf="showComponent5"></tabel5-component>
+      
+      <!--progn2-component *ngIf="{{section.content}}=='progn2'"></progn2-component *ngIf="{{section.content}}=='progn2'"-->
+      <!--progn1-component></progn1-component-->
+      <!--progn2-component></progn2-component-->
+    <!--/div-->
+  
+  </div>
+  
+  </div>
+  
+  </div>
+  
+  

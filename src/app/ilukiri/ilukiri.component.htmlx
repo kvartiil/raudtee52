@@ -1,0 +1,41 @@
+<!--p>Ilukirjake</p-->
+
+
+<div class="tekstike2 textmargin"> 
+<div class="rowmargin"> 
+Eristatakse järgmisi suhtarve:
+</div>
+<ul>
+<li><span style="font-weight: 700">Lühiajalise maksevõime ehk likviidsussuhtarvud</span> (<em>short-term solvency ratios; liquidity ratios</em>) näitavad ettevõtte võimet katta oma lühiajalisi kohustusi ehk teisisõnu – kas ettevõttel on piisavalt raha võlgnevuste tasumiseks;</li>
+<li><span style="font-weight: 700">Efektiivsuse suhtarvud </span> (<em>activity ratios</em>) näitavad kui efektiivselt ettevõte juhib eri varadesse investeeritud vahendeid;</li>
+<li><span style="font-weight: 700">Finantsvõimenduse ehk kapitali struktuuri suhtarvud </span> (<em>financial leverage ratios; debt ratios</em>) näitavad, kui palju ettevõte kasutab laenukapitali ehk ettevõtte võimet tasuda lühi- ja pikaajalisi kohustusi;</li>
+<li><span style="font-weight: 700">Tasuvuse suhtarvud </span> (<em>profitability ratios</em>) näitavad ettevõtte rentaablust ehk seda, kui palju toodab ettevõttesse investeeritud kapital kasumit;</li>
+<li><span style="font-weight: 700">Tööjõukulude tootlikkus </span> käibe alusel näitab, mitu eurot käivet saadakse ühe euro tööjõukulude kohta.</li>
+</ul>
+</div>
+
+
+<!--div class="eq-c">
+  Fraction =
+   <div class="fraction">
+   <span class="fup">50</span>
+   <span class="bar">/</span>
+   <span class="fdn">10</span>
+   </div>
+   = 5
+ </div-->
+
+ <div class="tekstike2 textmargin">
+  <span style="font-weight: 700">Lühiajaliste kohustuste kattekordaja </span> (<em>current ratio; working capital ratio</em>) kajastab ettevõtte võimet katta võlausaldajate lühiajalised nõuded käibevaraga.
+ </div>
+
+ <div class="eq-c">
+  Lühiajaliste kohustuste kattekordaja =
+   <div class="fraction">
+   <span class="fup">Käibevara</span>
+   <span class="bar">/</span>
+   <span class="fdn">Lühiajalised kohustused</span>
+   </div>
+   
+ </div>
+<br><br>

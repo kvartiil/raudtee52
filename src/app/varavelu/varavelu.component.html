@@ -1,0 +1,59 @@
+<div class="raamYmber" >
+
+<br>
+<div class="tekstike">
+
+Infoks elujõulisusest
+
+</div>
+
+<div class="infoasukoht">
+<infoaken9-component></infoaken9-component>
+</div>
+
+<br>
+
+<div class="tekstike2a">
+
+Ettevõtte elujõulisuse indeksi rakendus on arvutiprogramm ja selle hinnang ei pruugi olla igas olukorras eksimatu. Täpsemad selgitused ja ülevaate piirangutest leiate sellest tekstiosast. Selgituse lugemiseks klõpsake vastaval alajaotusel.
+<br> <br>
+</div>
+
+<div *ngFor="let section of sections; let i = index;">
+  <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+
+  <div class="panel" 
+  [ngClass]="{ 'visible' : currentIndex === i }">
+  <!--p>{{section.content}}</p-->
+  <iluelu-component *ngIf="showComponent0"></iluelu-component>
+  <ilukratt-component *ngIf="showComponent1"></ilukratt-component>
+  <ilukvia-component *ngIf="showComponent2"></ilukvia-component>
+  <ilulisaf1-component *ngIf="showComponent3"></ilulisaf1-component>
+  <ilulisaf2-component *ngIf="showComponent4"></ilulisaf2-component>
+  <ilulisaf3-component *ngIf="showComponent5"></ilulisaf3-component>
+  <ilulisaf4-component *ngIf="showComponent6"></ilulisaf4-component>
+  <ilulisaf5-component *ngIf="showComponent7"></ilulisaf5-component>
+  <ilulisaf6-component *ngIf="showComponent8"></ilulisaf6-component>
+  <ilusektor-component *ngIf="showComponent9"></ilusektor-component>
+  <iluklaster-component *ngIf="showComponent10"></iluklaster-component>
+  <iluprognoos1-component *ngIf="showComponent11a"></iluprognoos1-component>
+  <iluprognoos-component *ngIf="showComponent11"></iluprognoos-component>
+  <ilusoovitus-component *ngIf="showComponent12"></ilusoovitus-component>
+  
+  <!--progn2-component *ngIf="{{section.content}}=='progn2'"></progn2-component *ngIf="{{section.content}}=='progn2'"-->
+  <!--progn1-component></progn1-component-->
+  <!--progn2-component></progn2-component-->
+<!--/div-->
+
+</div>
+  <!--div class="raamYmber" -->
+
+  <!--div class="panel"
+    [ngClass]="{ 'visible' : currentIndex === i }">
+    <span class="tekstike2">{{section.content}}</span>
+      
+</div-->
+
+</div>
+
+</div>

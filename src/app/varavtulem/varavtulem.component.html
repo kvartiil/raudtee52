@@ -1,0 +1,58 @@
+<div class="raamYmber" >
+
+  <br>
+  <div class="tekstike">
+  
+  Alternatiivne tulemuskontseptsioon
+  
+  </div>
+  <div class="infoasukoht">
+    <infoaken10-component></infoaken10-component>
+    </div>
+  <br>
+  
+  <div class="tekstike2a">
+  
+  Alljärgnevalt on toodud alternatiivne tulemuste saamise lahendus, mis aitab analoogselt teistele lähenemistele, määrata kasutustasu.
+  <br> <br>
+  </div>
+  
+  <div *ngFor="let section of sections; let i = index;">
+    <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+  
+    <div class="panel"
+    [ngClass]="{ 'visible' : currentIndex === i }">
+    <!--p>{{section.content}}</p-->
+    <elast8-component *ngIf="showComponent0"></elast8-component>
+    <graafelasttotal *ngIf="showComponent1"></graafelasttotal>
+    <elast10-component *ngIf="showComponent2"></elast10-component>
+    <ilulisaf1-component *ngIf="showComponent3"></ilulisaf1-component>
+    <ilulisaf2-component *ngIf="showComponent4"></ilulisaf2-component>
+    <ilulisaf3-component *ngIf="showComponent5"></ilulisaf3-component>
+    <ilulisaf4-component *ngIf="showComponent6"></ilulisaf4-component>
+    <ilulisaf5-component *ngIf="showComponent7"></ilulisaf5-component>
+    <ilulisaf6-component *ngIf="showComponent8"></ilulisaf6-component>
+    <ilusektor-component *ngIf="showComponent9"></ilusektor-component>
+    <iluklaster-component *ngIf="showComponent10"></iluklaster-component>
+    <iluprognoos1-component *ngIf="showComponent11a"></iluprognoos1-component>
+    <iluprognoos-component *ngIf="showComponent11"></iluprognoos-component>
+    <ilusoovitus-component *ngIf="showComponent12"></ilusoovitus-component>
+    
+    <!--progn2-component *ngIf="{{section.content}}=='progn2'"></progn2-component *ngIf="{{section.content}}=='progn2'"-->
+    <!--progn1-component></progn1-component-->
+    <!--progn2-component></progn2-component-->
+  <!--/div-->
+
+</div>
+    <!--div class="raamYmber" -->
+  
+    <!--div class="panel"
+      [ngClass]="{ 'visible' : currentIndex === i }">
+      <span class="tekstike2">{{section.content}}</span>
+        
+  </div-->
+  
+  </div>
+  
+  </div>
+  

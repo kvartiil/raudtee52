@@ -1,0 +1,91 @@
+<br>
+<br>
+<div class= "tekstike">
+  Mudelite tõlgendamine
+</div>
+
+<div class="infoasukoht">
+<infoaken2-component></infoaken2-component>
+</div>
+
+<br><br>
+<div class= "tekstike2">
+Alljärgnevas tabelis on näidatud millist informatsiooni mudelite tulemused meile anda saavad.
+</div>
+<table id="employees">
+  
+<tr>
+<th>Mudel</th>
+<th>Tähis</th>
+<th>Mida ütleb</th>
+
+
+</tr>
+
+<tr>
+<td rowspan="2">elujouMudel</td>
+<td>0/1</td>
+<td>Ei ole elujõuline / on elujõuline</td>
+
+</tr>
+<tr>
+<td>0..1</td>
+<td>Kui suure tõenäosusega on elujõuline</td>
+
+</tr>
+<tr>
+<td rowspan="2">elastsusMudel</td>
+<td>0/1</td>
+<td>Turg ei ole elastne, kaubad ära ei lähe / turg on elastne, kaubad lähevad ära</td>
+
+</tr>
+<tr>
+
+<td>0..X</td>
+<td>Elastsuse suurus, saab ennustada, milline on elastsus ja kuida see mõjutab kaupade jäämist/äraminekut</td>
+
+</tr>
+<tr>
+<td rowspan="4">majandusMudel</td>
+<td>0/1</td>
+<td>Majanduse seis on halb / hea</td>
+
+</tr>
+
+<tr>
+<td>0/1</td>
+<td>Majanduse läheb seis halvemaks / paremaks</td>
+
+</tr> 
+
+<tr>
+<td>0/1</td>
+<td>Majanduse maht kahaneb / kasvab</td>
+
+</tr>
+
+<tr>
+<td>0/1</td>
+<td>Raha käibekiirus majanduses kahaneb / kasvab</td>
+
+</tr>
+
+<tr>
+<td rowspan="2">raudteeMudel</td>
+<td>0/1</td>
+<td>Raudtee hooldus läheb odavamaks / kallimaks</td>
+
+</tr>
+
+<tr>
+<td>0..1</td>
+<td>Tõenäosus, et raudtee hoolduskulud saavad kaetud (nende sisendite/tasude korral)</td>
+
+</tr>
+
+</table>
+<br><br>
+<br>
+<div class= "tekstike2x">
+Tabelis loetletud olukorrad ei ole lõplikud, võimalikud on erinevad lahendused.
+</div>

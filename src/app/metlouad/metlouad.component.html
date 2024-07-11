@@ -1,0 +1,25 @@
+<div class="nupp">
+ 
+  <button (click)="onclick()">
+      
+  {{ReadMore?"Ava metoodikaraport":"Sulge metoodikaraport"}}
+
+  
+  </button>
+  </div>
+  <br>
+  <br>
+  <ng-container *ngIf="visible">
+  <!--lahteturn-component></lahteturn-component-->
+  <!--lahtealumine-component></lahtealumine-component-->
+  <metraport2-component></metraport2-component>
+  <!--div class="tekstselgit2">
+    
+    <br>   
+    
+    <lahteinfo-component></lahteinfo-component>    
+      
+  </div-->
+  
+
+</ng-container>

@@ -1,0 +1,59 @@
+.flashcard {
+  height: 200px;
+  margin-top: -10px;
+
+  /*width: 90%;*/
+  align-items: center;
+  /*margin-left: 20px;*/
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 600ms;
+  transition: all 600ms;
+}
+
+  .flashcard div {
+      position: absolute;
+      margin-top: -56px;
+      /*height: 90%;*/
+      width: 100%;
+      /*padding: 5%;*/
+      text-align: center;
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      backface-visibility: hidden;
+      /**border-radius:15%;
+      border:5px solid rgb(216, 37, 142);
+      background-color: rgba(11, 240, 22, 0.3);**/
+  }
+
+  .flashcard .back {
+      -webkit-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+   /**       background-color: rgba(216, 63, 63, 0.3);*/
+  }
+
+  .flashcard .back2 {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+        background-color: rgba(8, 10, 128, 0.3);
+}
+
+
+.flashcard.flipped {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.teekst {
+  position: relative;
+  width: 1034px;
+  height: 48px;
+  padding-top: 30px;
+  padding-left: 40px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #09090b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}   

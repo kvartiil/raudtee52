@@ -1,0 +1,14 @@
+<div class="font-monospace text-white height-full p-t-xs">
+  <div class="message-container" *ngFor="let message of messages">
+    {{ message }}
+  </div>
+  <div class="input-group input-group-sm m-t-shift" style="padding-bottom: 0.5em">
+    <div class="input-group-prepend">
+      <span class="input-group-text bg-transparent text-white border-none">Remote:~ user$</span>
+    </div>
+    <input #userInput type="text" id="text-input" 
+           (focusout)="setFocus()" 
+           (keyup.enter)="submit(userInput.value); userInput.value = ''"
+           class="form-control bg-transparent text-white border-none" style="padding-left: 0.1em;">
+  </div>
+</div>

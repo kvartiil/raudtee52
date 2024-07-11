@@ -1,0 +1,27 @@
+
+<!--label-->    
+<br>
+<br>
+<br>
+<p class="teekst">
+Klikates alltoodud (sinisel) alajaotusel näed täiendavat infot.
+</p>
+<br>  
+<div class="flashcard" [class.flipped]="flipped" (click)="toggle()">
+
+    <div>
+      <!--lahteinfo-component></lahteinfo-component-->
+      <lahteinfo-component></lahteinfo-component>   
+      <!--tasutabel-component></tasutabel-component-->
+      
+  </div>
+  <!---div [ngClass] ="{'backx':lapkok() ==1 ,'back2x':lapkok() ==1}"-->
+    <!---div [ngClass] ="{'back': naitaja == 1, 'back2': naitaja == 2}"-->
+    <div class="back">
+    <lahteinfoback-component></lahteinfoback-component>
+    <!--div class="back">N   "btn  btn-danger" ow showing the back size {{kirjuta()}}</div-->
+    </div>
+</div>
+<!--/label-->
+
+<!----div [ngClass] ="{'back':lapkok() ==2 ,'back2':lapkok() ==4}" -->

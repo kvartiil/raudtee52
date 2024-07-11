@@ -1,0 +1,39 @@
+<!--p>infoaknake</p-->
+
+<section>
+  <div *ngFor="let article of articles" >
+    <!--article class="ui-titlebar">
+      <h4 class="ui-titletext">{{article.title}}</h4>
+    </article-->
+    <!--div class="windowsScreen"-->
+    <div class="nupp">
+      <button
+        href="#"
+        id="info"
+        class="nupp"
+        title="info"
+        (click)="PopUp($event, popupDiv)"
+      >
+        Info
+      </button>
+
+    </div>
+
+      <div class="popup" role="alert" #popupDiv>
+        <div class="popup-container">
+          <a href="#" class="popup-close img-replace" (click)="PopUp($event, popupDiv)">Close</a>
+          <p>{{article.content}}</p> 
+        </div>
+      </div>
+    <!--/div-->
+    <!--p class="windowsTech">
+      Technologies:
+      <span class="THtml"></span>
+      <span class="TCss"></span>
+      <span class="TJs"></span>
+    </p-->
+  </div>
+
+  
+
+</section>

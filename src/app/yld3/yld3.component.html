@@ -1,0 +1,169 @@
+<div class="frame">
+
+  <div class="div-3">
+    <!--div class="frame-wrapper"-->
+
+      <div [ngClass] ="{'frame-wrapperx':efektVarv() ==1 ,'frame-wrapperxa':efektVarv() ==2, 'frame-wrapperxb':efektVarv() ==3}" >
+
+      <div class="div-4">
+             
+        <div class="div-5">
+          <div [ngClass] = "{'ellipse-2x':efektVarv() ==1,'ellipse-2xa':efektVarv() ==2,'ellipse-2xb':efektVarv() ==3}">
+          <!--div class="ellipse-2x"></div-->
+          </div>
+          <div class="text-wrapper-6">
+          <div [ngClass] ="{'text-wrapper-6x':efektVarv() ==1 ,'text-wrapper-6xa':efektVarv() ==2, 'text-wrapper-6xb':efektVarv() ==3}" >
+          Efektiivsus
+            <!--div class="text-wrapper-6">Efektiivsus</div-->
+          </div>
+          </div>
+        </div>
+        <p class="element-aastal-muutuva">
+          <span class="text-wrapper-7">{{ efektHinnang() }}<br /></span> <span class="text-wrapper-8"></span>
+        </p>
+
+      </div>
+
+      </div>
+
+    <!--/div-->
+    <!--div class="frame-wrapper"-->
+    
+    <div [ngClass] ="{'frame-wrapperx':makseVarv() ==1 ,'frame-wrapperxa':makseVarv() ==2, 'frame-wrapperxb':makseVarv() ==3}" >
+    
+      <div class="div-4">
+        <div class="div-5">
+        <div [ngClass] = "{'ellipse-2x':makseVarv() ==1,'ellipse-2xa':makseVarv() ==2,'ellipse-2xb':makseVarv() ==3}"></div>
+        <div class="text-wrapper-6">
+        
+          <div [ngClass] ="{'text-wrapper-6x':makseVarv() ==1 ,'text-wrapper-6xa':makseVarv() ==2, 'text-wrapper-6xb':makseVarv() ==3}" >
+          Maksevõime
+          <!--div class="ellipse-2"></div-->
+          <!--div class="text-wrapper-6">Maksevõime</div-->
+        </div>
+        </div>
+      </div>
+       
+      <p class="element-aastal-muutuva">
+          <span class="text-wrapper-7">{{ makseHinnang() }}<br /></span> <span class="text-wrapper-8"></span>
+        </p>
+    
+      </div>
+    
+    
+    </div>
+    <!--/div-->
+
+
+
+    <!--div class="div-wrapper"-->
+    
+    <div [ngClass] ="{'frame-wrapperx':voimVarv() ==1 ,'frame-wrapperxa':voimVarv() ==2, 'frame-wrapperxb':voimVarv() ==3}" >
+
+      <div class="div-4">
+        <div class="div-5">
+
+        <div [ngClass] = "{'ellipse-2x':voimVarv() ==1,'ellipse-2xa':voimVarv() ==2,'ellipse-2xb':voimVarv() ==3}"></div>
+
+        <div class="text-wrapper-6">
+        
+        <div [ngClass] ="{'text-wrapper-6x':voimVarv() ==1 ,'text-wrapper-6xa':voimVarv() ==2, 'text-wrapper-6xb':voimVarv() ==3}" >
+
+          Finantsvõimendus
+
+        </div>
+        </div> 
+          <!--div class="ellipse-3"></div-->
+          <!--div class="text-wrapper-9">Finantsvõimendus</div-->
+        </div>
+        <p class="element-aastal-muutuva">
+          <span class="text-wrapper-7">{{ voimHinnang() }}<br /></span> <span class="text-wrapper-8"></span>
+        </p>
+      </div>
+    
+    </div>
+    <!--/div-->
+    
+    
+    
+    <!--div class="div-wrapper"-->
+    <div [ngClass] ="{'frame-wrapperx':tasuvVarv() ==1 ,'frame-wrapperxa':tasuvVarv() ==2, 'frame-wrapperxb':tasuvVarv() ==3}" >
+
+      <div class="div-4">
+        <div class="div-5">
+
+        <div [ngClass] = "{'ellipse-2x':tasuvVarv() ==1,'ellipse-2xa':tasuvVarv() ==2,'ellipse-2xb':tasuvVarv() ==3}"></div>
+
+          <!--div class="ellipse-3"></div-->
+
+          <div class="text-wrapper-6">
+        
+          <div [ngClass] ="{'text-wrapper-6x':tasuvVarv() ==1 ,'text-wrapper-6xa':tasuvVarv() ==2, 'text-wrapper-6xb':tasuvVarv() ==3}" >
+  
+            Tasuvus
+  
+          </div>
+          </div> 
+
+          <!--iv class="text-wrapper-9">Tasuvus</div-->
+        
+        
+        
+        
+        </div>
+
+
+        <p class="element-aastal-muutuva">
+          <span class="text-wrapper-7">{{ tasuvHinnang() }}<br /></span> <span class="text-wrapper-8"></span>
+        </p>
+      </div>
+    
+    </div>
+    <!--/div-->
+
+
+
+
+
+
+    <!--div class="frame-wrapper-2"-->
+    <div [ngClass] ="{'frame-wrapperx':toojoudVarv() ==1 ,'frame-wrapperxa':toojoudVarv() ==2, 'frame-wrapperxb':toojoudVarv() ==3}" >
+
+      <div class="div-4">
+        <div class="div-5">
+        
+        <div [ngClass] = "{'ellipse-2x':toojoudVarv() ==1,'ellipse-2xa':toojoudVarv() ==2,'ellipse-2xb':toojoudVarv() ==3}"></div>
+        
+          <!--div class="ellipse-4"></div-->
+          
+          <div class="text-wrapper-6">
+        
+          <div [ngClass] ="{'text-wrapper-6x':toojoudVarv() ==1 ,'text-wrapper-6xa':toojoudVarv() ==2, 'text-wrapper-6xb':toojoudVarv() ==3}" >
+  
+            Tööjõu tootlikkus
+  
+          </div>
+          </div> 
+          
+          
+          <!--div class="text-wrapper-10">Tööjõu tootlikkus</div-->
+
+
+
+
+
+        </div>
+        <p class="element-aastal-muutuva">
+          <span class="text-wrapper-7">{{ toojoudHinnang() }}<br /></span> <span class="text-wrapper-8"></span>
+        </p>
+      </div>
+    
+    </div>
+    <!--/div-->
+
+
+
+
+  </div>
+
+</div>

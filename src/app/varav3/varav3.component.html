@@ -1,0 +1,43 @@
+
+<div class="raamYmber" >
+
+<br>
+<div class="tekstike">
+
+Võrdlusprognoos teiste ettevõtete suhtes
+
+</div>
+
+<br>
+
+<div class="tekstike2">
+
+Alljärgnev avab täpsemat tausta, miks on ettevõtte prognoos saanud ülaltoodud hinnangu.  Ühtlasi on võimalik ettevõttel võrrelda ennast teistega kõigi mudelite lõikes, mida on rakendatud ettevõtte osas hinnangu andmiseks. Täpsemalt loe alaleheküljelt "Kuidas tulemusi mõista?"
+<br> <br>
+</div>
+
+<div *ngFor="let section of sections; let i = index;">
+  <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+
+  <!--div class="raamYmber" -->
+
+  <div class="panel"
+    [ngClass]="{ 'visible' : currentIndex === i }">
+    <!--p>{{section.content}}</p-->
+    <terminal1-component *ngIf="showComponent1"></terminal1-component>
+    <terminal2-component *ngIf="showComponent2"></terminal2-component>
+    <terminal3-component *ngIf="showComponent3"></terminal3-component>
+    <terminal4-component *ngIf="showComponent4"></terminal4-component>
+    <terminal5-component *ngIf="showComponent5"></terminal5-component>
+    
+    <!--progn2-component *ngIf="{{section.content}}=='progn2'"></progn2-component *ngIf="{{section.content}}=='progn2'"-->
+    <!--progn1-component></progn1-component-->
+    <!--progn2-component></progn2-component-->
+  <!--/div-->
+
+</div>
+
+</div>
+
+</div>
+

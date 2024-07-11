@@ -1,0 +1,336 @@
+.frame-811722,
+.frame-811722 * {
+  box-sizing: border-box;
+}
+.frame-811722 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.frame-811719 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.dokumendid-ja-juhiload {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: var(
+    --4px-elevation-box-shadow,
+    0px 4px 15px 0px rgba(0, 0, 0, 0.14)
+  );
+}
+.effKast {
+  /*background: #90be6d; //efektiivsuse värv*/
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.effKast1 {
+  background-color: #d73e3e;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.effKast2 {
+  background-color: #f3722c;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.effKast3 {
+  background: #90be6d;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+
+.mksKast1 {
+  background-color: #d73e3e;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.mksKast2 {
+  background-color: #f3722c;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.mksKast3 {
+  background: #90be6d;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+
+.tjKast1 {
+  background-color: #d73e3e;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.tjKast2 {
+  background-color: #f3722c;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.tjKast3 {
+  background: #90be6d;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+
+.vmKast1 {
+  background-color: #d73e3e;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.vmKast2 {
+  background-color: #f3722c;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.vmKast3 {
+  background: #90be6d;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+
+.taKast1 {
+  background-color: #d73e3e;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.taKast2 {
+  background-color: #f3722c;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.taKast3 {
+  background: #90be6d;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+
+.frame-811485 {
+  background: var(--primary-full-white, #ffffff);
+  border-radius: 0px 4px 4px 0px;
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.frame-811393 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.efektiivsus {
+  color: var(--text-black-medium-emphasis, #4d4f5d);
+  text-align: left;
+  font-family: var(--body-small-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-small-font-size, 14px);
+  line-height: var(--body-small-line-height, 20px);
+  font-weight: var(--body-small-font-weight, 700);
+  position: relative;
+}
+.effetekst {
+  color: var(--text-black-high-emphasis, #09090b);
+  text-align: justify;
+  font-family: var(--body-regular-bold-font-family, "Roboto-Bold", sans-serif);
+  font-size: var(--body-regular-bold-font-size, 14px);
+  line-height: var(--body-regular-bold-line-heigh,t, 14px);
+  font-weight: var(--body-regular-bold-font-weight, 400);
+  position: relative;
+  /*align-self: stretch;*/
+}
+.makspealkiri {
+  color: var(--text-black-medium-emphasis, #4d4f5d);
+  text-align: left;
+  font-family: var(--body-small-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-small-font-size, 14px);
+  line-height: var(--body-small-line-height, 20px);
+  font-weight: var(--body-small-font-weight, 700);
+  position: relative;
+}
+.makstekst {
+  color: var(--text-black-high-emphasis, #09090b);
+  text-align: justify;
+  font-family: var(--body-regular-bold-font-family, "Roboto-Bold", sans-serif);
+  font-size: var(--body-regular-bold-font-size, 14px);
+  line-height: var(--body-regular-bold-line-height, 14px);
+  font-weight: var(--body-regular-bold-font-weight, 400);
+  position: relative;
+  /*align-self: stretch;*/
+}
+.rectangle-2902 {
+  background: #d73e3e;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.toojoupealkiri {
+  color: var(--text-black-medium-emphasis, #4d4f5d);
+  text-align: left;
+  font-family: var(--body-small-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-small-font-size, 14px);
+  line-height: var(--body-small-line-height, 20px);
+  font-weight: var(--body-small-font-weight, 700);
+  position: relative;
+}
+.toojoutekst {
+  color: var(--text-black-high-emphasis, #09090b);
+  text-align: justify;
+  font-family: var(--body-regular-bold-font-family, "Roboto-Bold", sans-serif);
+  font-size: var(--body-regular-bold-font-size, 14px);
+  line-height: var(--body-regular-bold-line-height, 14px);
+  font-weight: var(--body-regular-bold-font-weight, 400);
+  position: relative;
+  /*align-self: stretch;*/
+}
+.buttons-primary-icon-enabled {
+  background: var(--primary-sapphire-blue, #005aa3);
+  border-radius: 20px;
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+}
+.vaata-l-hemalt {
+  color: var(--primary-full-white, #ffffff);
+  text-align: center;
+  font-family: var(--body-regular-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-regular-font-size, 16px);
+  line-height: var(--body-regular-line-height, 24px);
+  font-weight: var(--body-regular-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-811721 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.rectangle-2903 {
+  background: #f3722c;
+  border-radius: 4px 0px 0px 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 6px;
+  position: relative;
+}
+.finvoimpealkiri {
+  color: var(--text-black-medium-emphasis, #4d4f5d);
+  text-align: left;
+  font-family: var(--body-small-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-small-font-size, 14px);
+  line-height: var(--body-small-line-height, 20px);
+  font-weight: var(--body-small-font-weight, 700);
+  position: relative;
+}
+.finvoimtekst {
+  color: var(--text-black-high-emphasis, #09090b);
+  text-align: justify;
+  font-family: var(--body-regular-bold-font-family, "Roboto-Bold", sans-serif);
+  font-size: var(--body-regular-bold-font-size, 14px);
+  line-height: var(--body-regular-bold-line-height, 14px);
+  font-weight: var(--body-regular-bold-font-weight, 400);
+  position: relative;
+  /*align-self: stretch;*/
+}
+.tasuvuspealkiri {
+  color: var(--text-black-medium-emphasis, #4d4f5d);
+  text-align: left;
+  font-family: var(--body-small-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-small-font-size, 14px);
+  line-height: var(--body-small-line-height, 20px);
+  font-weight: var(--body-small-font-weight, 700);
+  position: relative;
+}
+.tasuvustekst {
+  color: var(--text-black-high-emphasis, #09090b);
+  text-align: justify;
+  font-family: var(--body-regular-bold-font-family, "Roboto-Bold", sans-serif);
+  font-size: var(--body-regular-bold-font-size, 14px);
+  line-height: var(--body-regular-bold-line-height, 14px);
+  font-weight: var(--body-regular-bold-font-weight, 400);
+  position: relative;
+  /*align-self: stretch;*/
+}

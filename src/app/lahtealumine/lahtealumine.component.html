@@ -1,0 +1,84 @@
+<!--p>See on alumine komponent...</p-->
+
+<div class="frame-811722">
+<div class="frame-811719">
+  <div class="dokumendid-ja-juhiload">
+    <!--div class="effKast effKast1"></div-->
+    
+    <div [ngClass] = "{'effKast1':efektVarv() ==1,'effKast2':efektVarv() ==2,' effKast3':efektVarv() ==3}"> </div>
+    <div class="frame-811485">
+      <div class="frame-811393">
+        <div class="efektiivsus">Olukord efektiivsusega</div>
+        <div
+          class="effetekst"
+        >
+          {{getEfektText()}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dokumendid-ja-juhiload">
+    <!--div class="rectangle-290"></div-->
+    <div [ngClass] = "{'mksKast1':makseVarv() ==1,'mksKast2':makseVarv() ==2,'mksKast3':makseVarv() ==3}"> </div>
+    <div class="frame-811485">
+      <div class="frame-811393">
+        <div class="makspealkiri">Olukord maksevõimega</div>
+        <div
+          class="makstekst"
+        >
+        {{getMakseText()}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dokumendid-ja-juhiload">
+    <!--div class="rectangle-2902"></div-->
+    <div [ngClass] = "{'tjKast1':toojoudVarv() ==1,'tjKast2':toojoudVarv() ==2,'tjKast3':toojoudVarv() ==3}"> </div>
+    <div class="frame-811485">
+      <div class="frame-811393">
+        <div class="toojoupealkiri">Olukord tööjõu tootlikkusega</div>
+        <div class="toojoutekst">
+          {{getToojoudText()}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--div class="buttons-primary-icon-enabled">
+    <div class="vaata-l-hemalt">Vaata tehnilist infot</div>
+  </div-->
+</div>
+<div class="frame-811721">
+  <div class="dokumendid-ja-juhiload">
+    <!--div class="rectangle-2903"></div-->
+    <div [ngClass] = "{'vmKast1':voimVarv() ==1,'vmKast2':voimVarv() ==2,'vmKast3':voimVarv() ==3}"> </div>
+    <div class="frame-811485">
+      <div class="frame-811393">
+        <div class="finvoimpealkiri">Olukord finantsvõimendusega</div>
+        <div
+          class="finvoimtekst"
+        >
+          {{getVoimeText()}}     </div>
+      </div>
+    </div>
+  </div>
+  <div class="dokumendid-ja-juhiload">
+    <!--div class="rectangle-2903"></div-->
+    <div [ngClass] = "{'taKast1':tasuvVarv() ==1,'taKast2':tasuvVarv() ==2,'taKast3':tasuvVarv() ==3}"> </div>
+    <div class="frame-811485">
+      <div class="frame-811393">
+        <div class="tasuvuspealkiri">
+          Olukord tasuvusega
+        </div>
+        <div
+          class="tasuvustekst"
+        >
+          {{getTasuvusText()}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<br><br>  
+
+{{callFun()}}

@@ -1,0 +1,191 @@
+<div class="tekstike">
+Sisendi aken
+</div>
+<div class="infoasukoht">
+<infoaken5-component></infoaken5-component>
+</div>
+
+<div class="tekstike2">
+Siitkaudu saab anda sisendit, mida programm arvestab.
+</div>
+
+<!--div class="tekstselgit7">
+  X-road simulatsioon
+  </div-->
+  
+  <!--div class="tekstselgit8">
+    Siin leheküljel on toodud X-tee simulatsioon, ehk siis võimalus sisestada/muuta neid sisendeid, mis üle X-tee tulevad ja näha, kuidas frontend nendele reageerib. Vaikimisi on kastides esitatud need väärtused, mida süsteem kasutab. Kui neid muuta, siis kasutab süsteem uusi väärtuseid. Kuna tegemist on aga "mängu" X-teega, siis oleks oluline, et süsteem saaks aru, et sisestatud on uus väärtus, selleks on mõistlik peale uute väärtuste sisestamist erinevaid alajaotuseid läbi klikata (siis alajaotus reinitsialiseerib ennast). Näiteks korra klikata efektiivsusele, siis maksevõimele ja siis uuesti efektiivsusele (lihtsalt, et süsteem aru saaks, et peab uued muutujad sisse lugema).
+  </div-->
+<br>
+<!---div class="tekstselgit6">
+Testmudeli sisend
+</div-->
+
+<!--div class="tekstselgit5">
+Mudelil on kolm väljundit, y1, y2 ja y3. Igaüks neist näitab tõenäosust, millise tõenäosusega mudel arvab, et on üks või teine tulem. Igaüks on vahemikus 0..1, nende summa on 1.
+</div-->
+<!---br--> 
+
+<!--div class="tekstselgit4">
+  Mudel - madal elujõulisus, y1:   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - keskmine elujõulisus, y2:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - kõrge elujõulisus, y3:
+
+  </div-->
+
+<!----input type="number" [(ngModel)]="numberValue" class="container" min="0" step="0.01" max="1">
+{{sisendEsimene()}}
+
+<input type="number" [(ngModel)]="numberValue2" class="container">
+{{sisendTeine()}}
+
+<input type="number" [(ngModel)]="numberValue3" class="container">
+{{efektKorge()}}
+<br><br>
+<div class="tekstselgit8">
+Kastides olevate numbrite summa peaks olema 1.
+</div>
+<br>
+<br-->
+<div class="tekstselgit6">
+Elujõu mudeli sisend
+</div>
+<div class="tekstselgit5">
+Toodud sisendid annavad hetkel nõrga tulemuse.
+</div>
+<br>
+
+<div class="tekstselgit4">
+  Sisend 1 - kohustuste osakaal:   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Sisend 2 - raha osakaal:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Sisend 3 - kiirlaenude osakaal kohustustes:
+
+  </div>
+
+<input type="number" [(ngModel)]="numberValuem" class="container" min="0" step="0.01" max="1">
+{{makseMadal()}}
+
+<input type="number" [(ngModel)]="numberValuem2" class="container" min="0" step="0.01" max="1">
+{{makseKeskmine()}}
+
+<input type="number" [(ngModel)]="numberValuem3" class="container" min="0" step="0.01" max="1">
+{{makseKorge()}}
+<br><br>
+<div class="tekstselgit8">
+Kastidesse tuleks sisestada numbrid vahemikus 0-1.
+</div>
+
+<br>
+<div class="tekstselgit6">
+Elastsusmudel
+</div>
+<div class="tekstselgit5">
+Sisendid annavad hetkel tulemuse, et tegemist on suure elastsusega.
+</div>
+<br>
+
+<div class="tekstselgit4">
+  Sisend 1 - koguse muutus (1-suur; 0-madal):   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Sisend 2 - hinna muutus (1-suur; 0-madal):
+  <!---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Mudel - kõrge elujõulisus, y3:-->
+
+  </div>
+
+<input type="number" [(ngModel)]="numberValuef" class="container">
+{{voimMadal()}}
+
+<input type="number" [(ngModel)]="numberValuef2" class="container containerX">
+{{voimKeskmine()}}
+
+<!--input type="number" [(ngModel)]="numberValuef3" class="container"-->
+{{voimKorge()}}
+<br><br>
+<div class="tekstselgit8">
+Kastidesse tuleks sisestada numbrid vahemikus 0-1.
+</div>
+
+<br>
+<div class="tekstselgit6">
+Raudtee mudel
+</div>
+<div class="tekstselgit5">
+
+Mudel vastab küsimusele, kas raudtee kasutamine on "kallis (1)" või "odav (0)", algoritm hiljem võrdleb raudteele sisse tulevat raha ja kõrvutab mudeliga ning siis otsustab, kas raudtee mõttes on kasutustasu piisav. Vaikimisi on tulemuseks, et raudtee kasutus on "kallis".
+</div>
+<br>
+
+<div class="tekstselgit4">
+  Sisend 1 - ehitus/hooldus hinnad:   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Sisend 2 - investeeringud:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Sisend 3 - tööjõukulud:
+
+  </div>
+
+<input type="number" [(ngModel)]="numberValuet" class="container">
+{{tasuvMadal()}}
+
+<input type="number" [(ngModel)]="numberValuet2" class="container">
+{{tasuvKeskmine()}}
+
+<input type="number" [(ngModel)]="numberValuet3" class="container">
+{{tasuvKorge()}}
+<br><br>
+<div class="tekstselgit8">
+Kastidesse tuleks sisestada numbrid vahemikus 0-1.
+</div>
+
+<br>
+<div class="tekstselgit6">
+Majandusmudel
+</div>
+<div class="tekstselgit5">
+Mudel vastab küsimusele, kas majandusel läheb hästi või halvasti.  Madal inflatsioon, suur majanduskasv ja kõrge välisnõudlus tähendavad majanduse head käekäiku. Kui majandusel läheb hästi, siis saab (ja pigem peab) kasutustasu pigem tõsta. 
+</div>
+<br>
+
+<div class="tekstselgit4">
+  Sisend 1 - inflatsioon:
+     
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Sisend 2 - GDP kasv:
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Sisend 3 - välisnõudlus:
+  
+
+  </div>
+
+<input type="number" [(ngModel)]="numberValuej" class="container">
+{{toojoudMadal()}}
+
+<input type="number" [(ngModel)]="numberValuej2" class="container">
+{{toojoudKeskmine()}}
+
+<input type="number" [(ngModel)]="numberValuej3" class="container">
+{{toojoudKorge()}}
+<br><br>
+<div class="tekstselgit8">
+Kastidesse tuleks sisestada numbrid vahemikus 0-1.
+</div> 
+
+<br>
+<!--div class="tekstselgit6">
+Konsultandi valimine
+</div>
+<div class="tekstselgit9">
+  Alltoodud rippmenüüst saab valida maakonna, konsultantide lehel kuvatakse konsultandid sellest maakonnast. Hetkel lihtsalt sünteetilised andmed.
+  </div>
+<select [formControl]="dropdown" class="container2">
+  <option [value]="option" *ngFor="let  option of options">{{option}}</option>
+</select--> 
+{{laeMaakond()}}
+
+<!--datain></datain-->

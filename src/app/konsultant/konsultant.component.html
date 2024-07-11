@@ -1,0 +1,121 @@
+<p class="tekstike">
+Konsultandid piirkonnas
+</p>
+{{maakonnaValik()}}
+{{filterKirjetUus()}}
+
+<!--p class="tekstikev">
+  Mis infot me hetkeolukorra kohta teame
+  </p-->
+
+  <p class="tekstike2">
+    Esitatud tulemuste paremaks mõistmiseks ja nende rakendamise kaalumiseks soovitame nõu pidada erialanõustajaga.  Sinu piirkonna vastavad nõustajad on järgmised:
+
+
+<!--
+    {{ kooonsultArray }}
+   <br><br><br>
+   {{ valjamuutuja }}
+   
+-->
+
+  </p>
+
+  <p class="tekstikev">
+  
+  
+  </p>
+
+  <!--table id="employees">
+  
+  <tr>
+  <th>Eesnimi</th>
+  <th>Perenimi</th>
+  <th>Asutus</th>
+  <th>Telefon</th>
+  <th>Email</th>
+  
+</tr>
+
+  <tr *ngFor="let sekid1 of oigeKirjeUus">
+  <td>{{sekid1.Eesnimi}}</td>
+  <td>{{sekid1.Perenimi}}</td>
+  <td>{{sekid1.Asutus}}</td>
+  <td>{{sekid1.Telefon}}</td>
+  <td>{{sekid1.Email}}</td>
+  </tr>
+
+  </table-->
+
+<br>
+<!--p class="tekstike2a">
+Alternatiivne variant konsultantide info kuvamiseks:
+</p-->
+
+  <table id="employees2">
+  
+    <!--tr>
+    <th>Eesnimi</th>
+    <th>Perenimi</th>
+    <th>Asutus</th>
+    <th>Telefon</th>
+    <th>Email</th>
+    
+  </tr-->
+    <div class="dashboard">
+    <div class="dashboard-type">
+    <tr *ngFor="let sekid1 of oigeKirjeUus">
+    <!--td>{{sekid1.Eesnimi}}</td>
+    <td>{{sekid1.Perenimi}}</td>
+    <td>{{sekid1.Asutus}}</td>
+    <td>{{sekid1.Telefon}}</td>
+    <td>{{sekid1.Email}}</td-->
+    <!--div class="dashboard-type"-->
+    <div class="dashboard-row2">
+    <div class="dashboard-row-item">
+      <div
+        class="rida"
+      >
+      {{sekid1.Eesnimi}},&nbsp;&nbsp;{{sekid1.Perenimi}} <br>
+      {{sekid1.Asutus}}
+      </div>
+    </div>
+    <div class="dashboard-row-item2">
+      <div class="content">Tel: {{sekid1.Telefon}}</div>
+      <div class="content">Email: {{sekid1.Email}}</div>
+    </div>
+  </div>
+  
+  <svg
+    class="divider2"
+    width="950"
+    height="16"
+    viewBox="0 0 950 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <line y1="7.5" x2="950" y2="7.5" stroke="#669CC8" />
+  </svg>
+    <!--/div-->
+
+  </tr>
+    </div>
+    </div>
+  
+    </table>
+
+<br><br>
+
+  <!--table>
+  
+  <tr *ngFor="let sekid2 of kooonsultArray">
+  <td>{{sekid2.Asutus}}</td>
+  <td>jjj</td>
+  <td>{{sekid2.Eesnimi}}</td>
+  <td>ll</td>
+  <td>ll</td>
+  <td>ll</td>
+  <td>lkj</td>
+</tr>
+
+  </table-->

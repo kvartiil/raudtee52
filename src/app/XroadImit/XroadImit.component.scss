@@ -1,0 +1,247 @@
+
+.container {
+  display: block;
+  position: relative;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-left: 0.5rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0.5rem;
+  width: 270px;
+  height: 30px;
+  
+   
+  cursor: pointer;
+  color: rgba(29, 216, 38, 0.96);
+  background-color: #961756;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+
+  /**font-size: 1rem;**/
+  -webkit-user-select: none;
+  /*-webkit-validation-bubble-text-block:none;*/
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+   
+  
+  &.container input {
+    background-color: #420e96;
+    /*-webkit-validation-bubble-text-block:none;*/
+    
+  }
+
+  &:hover input ~ .checkmark {
+    background-color: rgb(107, 149, 197);
+    /*-webkit-validation-bubble-text-block:none;*/
+  }
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  background-color: #420e96;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  
+
+  & ~ .checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(34, 179, 166);
+
+    &:after {
+      content: "";
+      position: absolute;
+      display: none;
+      left: 0.4rem;
+      top: 0.1rem;
+      width: 1rem;
+      height: 0.8rem;
+      border: solid rgb(248, 209, 36);
+      border-width: 0 0.3rem 0.5rem 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      -webkit-transition: 1.4s;
+      transition: 1.4s;
+    }
+  }
+
+  &:checked ~ .checkmark {
+    background-color: #420e96;
+
+    &:after {
+      display: block;
+    }
+  }
+}
+
+input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+      }
+
+.container2 {
+  display: block;
+  position: relative;
+  margin-left: 20px;
+  padding-top: 3px;
+  padding-left: 0.5rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+  width: 270px;
+  height: 30px;
+  color: rgba(29, 216, 38, 0.96);
+  background-color: #961756;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+
+}
+
+
+
+.tekstselgit4 {
+  color: rgb(30, 20, 75, 0.96);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding-left: 20px;
+  /**float: inherit;**/
+}
+
+.tekstselgit5 {
+  margin-bottom: -10px;
+  color: rgb(30, 20, 75, 0.96);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding-left: 20px;
+  
+}
+
+.tekstselgit6 {
+  margin-bottom: 10px;
+  color: rgb(30, 20, 75, 0.96);
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding-left: 20px;
+  
+}
+
+.tekstselgit7 {
+  margin-bottom: 10px;
+  color: rgb(30, 20, 75, 0.96);
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding-left: 20px;
+  
+}
+
+.tekstselgit8 {
+  margin-bottom: 10px;
+  color: rgb(30, 20, 75, 0.96);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding-left: 20px;
+  font-style: italic;
+}
+
+.tekstselgit9 {
+  margin-bottom: 10px;
+  color: rgb(30, 20, 75, 0.96);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding-left: 20px;
+  
+}
+
+.tekstike {
+  position: relative;
+  width: 1034px;
+  /*height: 48px;*/
+  padding-top: 20px;
+  padding-left: 40px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f; /* #09090b;*/
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 32px;
+}   
+
+.tekstikev {
+  position: relative;
+  width: 1034px;
+  /*height: 24px;*/
+  padding-top: 10px;
+  padding-left: 40px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f; /* #09090b;*/
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -32px;
+}   
+
+.tekstike2 {
+  position: relative;
+  width: 1034px;
+  /*height: 48px;*/
+  padding-top: 10px;
+  padding-left: 40px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  /*margin-top: -30px;*/
+}   
+
+
+.infoasukoht {
+  margin-left: 1000px;
+  display: inline-block;
+  margin-top: -170px;
+  /*margin-top: -50px;*/
+  /*padding-bottom: 20px;*/
+}
+
+.containerX {
+  margin-left: 130px;
+}

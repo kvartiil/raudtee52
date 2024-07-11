@@ -1,0 +1,27 @@
+<h3>This is Approach 2 - async Pipe</h3>
+<div *ngIf="userData$ | async as userData">
+  <mat-list-item role="listitem">
+    <span matLine>
+      <span>First Name: </span>
+      <span> {{userData.first_name}}</span>
+    </span>
+  </mat-list-item>
+  <mat-list-item role="listitem">
+    <span matLine>
+      <span>Last Name: </span>
+      <span> {{userData.last_name}} </span>
+    </span>
+  </mat-list-item>
+  <mat-list-item role="listitem">
+    <span matLine>
+      <span>Email: </span>
+      <span> {{userData.email}} </span>
+    </span>
+  </mat-list-item>
+  <mat-list-item role="listitem">
+    <span matLine>
+      <span>Mobile: </span>
+      <span> {{userData.mobile_no}} </span>
+    </span>
+  </mat-list-item>
+</div>

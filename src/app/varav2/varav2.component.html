@@ -1,0 +1,16 @@
+<h2>Accordion</h2>
+
+<div *ngFor="let section of sections; let i = index;">
+  <button class="accordion" (click) = "expand(i)">{{section.name}}</button>
+  <div class="panel"
+    [ngClass]="{ 'visible' : currentIndex === i }">
+    <p>{{section.content}}</p>
+    <terminal1-component *ngIf="showComponent1"></terminal1-component>
+    <progn2-component *ngIf="showComponent2"></progn2-component>
+    <progn3-component *ngIf="showComponent3"></progn3-component>
+    
+    <!--progn2-component *ngIf="{{section.content}}=='progn2'"></progn2-component *ngIf="{{section.content}}=='progn2'"-->
+    <!--progn1-component></progn1-component-->
+    <!--progn2-component></progn2-component-->
+  </div>
+</div>

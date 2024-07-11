@@ -1,0 +1,53 @@
+input {
+  outline: none !important;
+ }
+ 
+ .font-monospace {
+   font-family: monospace;
+ }
+ 
+ .height-full {
+   height: 100%;
+ }
+ 
+ .text-white {
+   color: white;
+ }
+ 
+ .p-t-xs {
+   padding: 0.4em;
+ }
+ 
+ .message-container {
+   padding-left: 0.55em;
+   font-size: 1.08em;
+ }
+ 
+ .m-t-shift {
+   margin-top: -4px;
+ }
+ 
+ .border-none {
+   border: none;
+ }
+ 
+ .bg-transparent {
+   background: transparent;
+ }
+
+ html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: black;
+}
+
+.form-control:focus {
+  outline: none !important;
+  outline-style: none;
+  box-shadow:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  border-color:transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

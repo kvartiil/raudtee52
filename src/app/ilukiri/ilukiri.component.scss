@@ -1,0 +1,59 @@
+.tekstike2 {
+  position: relative;
+  /*width: 1034px;*/
+  padding-top: 1px;
+  padding-left: 40px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+  
+}  
+
+.textmargin {
+  margin-bottom: 0px;
+}
+
+.rowmargin {
+  margin-bottom: -10px;
+}
+
+.span {
+  font-weight: 700;
+}
+
+body{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.eq-c {
+  font-style: italic;
+  margin-left: 40px;
+
+}
+// Fraction
+.fraction {
+  display: inline-block;
+  vertical-align: middle; 
+  margin: 0 0.2em 0.4ex;
+  text-align: center;
+  font-style: italic;
+  & > span{
+    display: block;
+    padding-top: 0.15em;
+  }
+  & span{
+    &.fdn{
+      border-top: thin solid black;
+    }
+    &.bar{
+      display: none;
+    }
+  }
+}

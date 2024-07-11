@@ -1,0 +1,252 @@
+.frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  padding: 2px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 0px 4px 4px 4px;
+  border: 0px solid;
+  border-color: #878a97;
+}
+
+.frame .rida {
+  display: flex;
+  height: 363px;
+  align-items: center;
+  gap: 2px;
+  padding-top: 65px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--primary-full-white);
+  border-radius: 4px;
+}
+
+.frame .group {
+  position: relative;
+  width: 381.14px;
+  height: 180.2px;
+}
+
+.frame .joonisval {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: 0px;
+  left: 15px;
+}
+
+.frame .joonis {
+  position: absolute;
+  width: 49px;
+  margin-top: -100px;
+  height: 50px;
+  top: 8px;
+  left: 4px;
+}
+
+/*
+
+.frame .vector {
+  position: absolute;
+  width: 249px;
+  height: 124px;
+  top: 0;
+  left: 0;
+}
+
+.frame .polygon {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  top: 60px;
+  left: 120px;
+}
+*/
+/*.frame .ellipse {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 115px;
+  left: 115px;
+  background-color: #313131;
+  border-radius: 9.37px;
+}*/
+/*
+.frame .img {
+  position: absolute;
+  width: 31px;
+  height: 32px;
+  top: 18px;
+  left: 202px;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  top: 11px;
+  left: 243px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #4f4f4f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}*/
+
+.frame .vector-2 {
+  position: absolute;
+  width: 1px;
+  height: 24px;
+  top: 0;
+  left: 134px;
+}
+
+.frame .vector-3 {
+  position: absolute;
+  width: 24px;
+  height: 1px;
+  top: 132px;
+  left: 241px;
+}
+
+.frame .vector-4 {
+  position: absolute;
+  width: 24px;
+  height: 1px;
+  top: 132px;
+  left: 0;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 142px;
+  left: 328px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #4f4f4f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 153px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #4f4f4f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/*
+.frame .text-wrapper-4 {
+  position: absolute;
+  top: 142px;
+  left: 0;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #4f4f4f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}*/
+
+.frame .tekstjanupp {
+  display: flex;
+  flex-direction: column;
+  width: 101px;
+  height: 483px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1px;
+  padding-top: 36px;
+  padding-left: 170px;
+  margin-top: -50px;
+  position: relative;
+}
+
+.frame .ettev-te-on-k-rge {
+  position: relative;
+  width: 485px;
+  height: 88px;
+  margin-right: -72px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #09090b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.frame .span {
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #09090b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.frame .text-wrapper-5 {
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.nupp button {
+	/**margin-left: 20px;**/
+	margin-left: 0%;
+  margin-top: 55px;
+  line-height: 24px;	
+  background: #005AA3;
+	color: white;
+	font-size: 16px;
+	border-radius: 20px;
+	width: 248px;
+	min-height: 43px;
+  padding-left: 22px;
+	align-content: center;
+  
+
+	&:hover {
+		color: rgb(255, 128, 0);
+		font-size: 16px;
+		background-color: rgb(0, 66, 119);
+	}
+
+  .label {
+    white-space: nowrap;
+    overflow: hidden;
+		color: red;
+  }
+
+
+}    
+
+
+.nuppx {
+  /**padding-left: 20px;**/
+  padding: 6px 6px 6px 6px;
+  margin: 6px 8px 6px 20px;
+  min-width: 220px;
+  border-radius: 3px;
+  font-size: 14px;
+  /**float: left;**/
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration:none;
+  border: none;
+  outline: none;
+  color : #f1eaea;
+  background-color: rgba(30, 20, 75, 0.96);
+
+}
+
+
